@@ -1,0 +1,10 @@
+Mar 05 07:51:58 DESKTOP-KD2KAD1 systemd[1]: Startup finished in 2.025s.
+Mar 05 07:51:59 DESKTOP-KD2KAD1 systemd[372]: Startup finished in 168ms.
+Mar 05 09:57:44 DESKTOP-KD2KAD1 systemd[1]: Startup finished in 2.248s.
+Mar 05 09:57:45 DESKTOP-KD2KAD1 systemd[355]: Startup finished in 144ms.
+Mar 05 10:02:18 DESKTOP-KD2KAD1 systemd[1]: Startup finished in 1.637s.
+Mar 05 10:02:18 DESKTOP-KD2KAD1 systemd[347]: Startup finished in 163ms.
+Mar 05 11:48:16 DESKTOP-KD2KAD1 systemd[1]: Startup finished in 1.842s.
+Mar 05 11:48:17 DESKTOP-KD2KAD1 systemd[351]: Startup finished in 165ms.
+Mar 06 07:47:41 DESKTOP-KD2KAD1 systemd[1]: Startup finished in 1.442s.
+Mar 06 07:47:41 DESKTOP-KD2KAD1 systemd[410]: Startup finished in 143ms.
