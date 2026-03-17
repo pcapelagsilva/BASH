@@ -1,0 +1,30 @@
+=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=               DICIONÁRIO PIPE =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+1) O Protagonista: | (Pipe)
+    - O que faz: Ele conecta a saída de um comando diretamente à entrada do próximo.
+
+    - Analogia: Imagine uma esteira de produção. O primeiro comando coloca o objeto na esteira, e o segundo comando o processa. Sem o pipe, você teria que salvar o arquivo, fechar, abrir com outro programa e processar manualmente.
+
+    - No exercício: cat pesquisa_falciforme.log | grep "DATA" -> O cat joga o texto na esteira, e o grep filtra apenas o que interessa.
+
+2) O grep (Filtro)
+    - O que faz: Busca por padrões de texto (palavras ou frases) dentro de um arquivo ou da saída de outro comando.
+
+    - No exercício: Usamos para encontrar "Mutação" ou "DATA" no meio de centenas de informações. É a sua principal ferramenta para vasculhar genomas em busca de sequências específicas.
+
+3) O wc -l (Contador)
+    - O que faz: wc significa word count. A flag -l especifica que você quer contar linhas (lines).
+
+    - Por que é útil: Em Bioinformática, os arquivos são grandes demais para ler. Você usa o pipe para filtrar algo e o wc -l para saber quantas vezes aquilo aconteceu (ex: quantas mutações foram achadas).
+
+4) O > e >> (Redirecionadores)
+    - > (Seta única): Cria um arquivo novo com o resultado. Atenção: Se o arquivo já existir, ele apaga o conteúdo antigo e escreve o novo por cima.
+
+    - >> (Seta dupla): Adiciona o resultado ao final de um arquivo que já existe, sem apagar o que estava lá. Útil para manter logs de experimentos ao longo dos dias.
+
+-------------- NO CÓDIGO QUE USAMOS: ---------------
+cat pesquisa_falciforme | grep "Sucesso" > relatorio_final.txt
+
+1) cat -> Lê o log;
+2) | -> Passa o texto para o próximo;
+3) grep -> Seleciona apenas as linhas de sucesso;
+4) > -> Cria um arquivo chamado "relatorio_final.txt" apenas com essas linhas.

@@ -1,0 +1,14 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=         DICIONÁRIO DO BACKUP_SEQUENCIAS            -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+O que cada código significa:
+    1) cd ~/ -> Manda ir até a pasta desejada (Por exemplo: cd ~/BASH ou cd REVISÃO_BASH/BACKUP_SEQUENCIAS);
+
+    2) mkdir -> Cria uma pasta nova;
+
+    3) echo "..." > NOME DO ARQUIVO -> Adiciona um determinado texto ao arquivo escolhido;
+
+    4) ls -> Verifica quais arquivos estão na pasta;
+
+    5) grep -> Serve para pesquisar algo;
+    
+    6) mv -> Move/Transforma o que for escolhido (Por exemplo: mv *.fasta BACKUP_SEQUENCIAS/ - move os documentos .fasta para a pasta escolhida; ou mv "$arquivo" "BIO_$arquivo" - Transforma o nome do arquivo)

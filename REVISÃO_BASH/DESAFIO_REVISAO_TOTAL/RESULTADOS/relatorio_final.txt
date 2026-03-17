@@ -1,0 +1,2 @@
+>paciente_02: HBB_MUTANTE
+>paciente_03: HBB_MUTANTE

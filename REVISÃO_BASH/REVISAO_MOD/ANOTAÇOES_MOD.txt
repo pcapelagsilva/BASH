@@ -1,0 +1,8 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                DICIONÁRIO DO MOD              -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1) #!/bin/bash (Shebang) -> Ela avisa ao sistema "Use o Bash para ler esse arquivo!";
+
+2) chmod -> Significa "Change Mode", é o comando para alterar quem pode ler, escrever ou rodar um arquivo;
+
+3) +x -> É a flag que adiciona a premissão de eXecução, sem isso, o arquivo é apenas um texto inofensivo para o sistema;
+
+4) ./ -> Indica ao terminal para procurar o arquivo na pasta atual. Por segurança, o Linux não roda scripts da pasta atual automaticamente se você digitar apenas o nome.

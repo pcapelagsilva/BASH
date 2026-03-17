@@ -1,0 +1,9 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                 DICIONÁRIO VARS              -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1) VAR="Valor" -> Cria uma variável. É como definir uma constante em BioPython.
+
+2) $ -> É o operador de expansão. Sem ele, o terminal veria apenas texto comum.
+
+3) $USER -> Variável global que guarda o seu nome de usuário no Linux (no seu caso, provavelmente pedrocapela).
+
+4) $PWD -> Guarda o "Print Working Directory" (o caminho completo de onde você está agora).

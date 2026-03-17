@@ -1,0 +1,7 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                DICIONÁRIO DO GIT 2.0          -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1) remote -> É o computador remoto (servidor) que guarda uma cópia do seu projeto;
+
+2) origin -> É apenas um apelido padrão. Você poderia chamar de "nuvem", "servidor_estagio" ou qualquer outro nome;
+
+3) -v -> Significa "verbose". Serve para mostrar os endereços (URLs) detalhados.

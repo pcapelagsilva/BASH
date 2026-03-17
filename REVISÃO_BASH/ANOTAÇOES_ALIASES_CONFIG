@@ -1,0 +1,12 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=               DICIONÁRIO DE ALIAS E
+              CONFIGURAÇÃO DO TERMINAL
+-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-
+📝 O que significa cada código deste exercício??
+
+1) alias -> Cria um apelido para um comando longo. É como criar um atalho no teclado;
+
+2) export -> Define uma variável de ambiente que fica disponível para todos os programas que você abrir naquele terminal;
+
+3) source -> Lê e executa o conteúdo de um arquivo de configuração imediatamente, sem precisar fechar e abrir o VS Code;
+
+4) ~ -> Representa a sua "Home", a pasta principal do seu usuário.

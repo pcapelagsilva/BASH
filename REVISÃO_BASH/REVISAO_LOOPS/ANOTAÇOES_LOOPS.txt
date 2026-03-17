@@ -1,0 +1,11 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                 DICIONÁRIO DE LOOPS              -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+# O comando for percorre uma lista de itens e executa uma ação para cada um. Vamos renomear todos os arquivos .fasta para que comecem com BIO_:
+
+''' for arquivo in *.fasta; do mv "$arquivo" "BIO_$arquivo"; done '''
+
+# O que esse código faz?
+    ''' 1. for arquivo in *.fasta: Ele olha para cada arquivo que termina em .fasta;
+        2. do: "faça o seguinte..." 
+        3. mv "$arquivo" "BIO_$arquivo": Move (renomeia) o arquivo original para o novo nome com o prefixo (BIO_)
+        4. done: "Acabou o loop". '''

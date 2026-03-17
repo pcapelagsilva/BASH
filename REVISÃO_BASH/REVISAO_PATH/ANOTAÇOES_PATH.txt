@@ -1,0 +1,9 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                  DICIONÁRIO PATH              -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1) mkdir -p -> O p vem de parents. Ele cria toda a árvore de diretórios de uma vez.
+
+2) .. -> Representa o diretório acima (pai).
+
+3) . -> Representa o diretório atual (útil para mover coisas para "aqui").
+
+4) ln -s -> Cria um Symbolic Link. É igual a um atalho de área de trabalho no Windows, mas muito mais poderoso para scripts.

@@ -1,0 +1,7 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=                DICIONÁRIO DO GIT            -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1) .gitignore -> Um arquivo de texto simples onde cada linha é uma regra de exclusão;
+
+2) *.fastq -> O asterísco é um "curinga". No nosso código ele diz: "Ignore qualquer arquivo que termine em .fastq";
+
+3) pasta/ -> A barra no final indica que o Git deve ignorar a pasta inteira e tudo o que estiver dentro dela.
