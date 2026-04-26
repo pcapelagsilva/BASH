@@ -1,0 +1,24 @@
+# Logs e saídas de erro
+*.log
+*.out
+err.txt
+saida.txt
+
+# Arquivos temporários do editor Vim
+*.swp
+*.swo
+.netrwhist
+
+# Histórico e arquivos de sessão (privacidade)
+.bash_history
+.bash_logout
+.lesshst
+.viminfo
+
+# Arquivos compactados (opcional, caso você não queira subir zips)
+*.zip
+*.tar.gz
+
+# Pastas de ambiente virtual ou temporárias
+temp/
+tmp/
